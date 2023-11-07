@@ -1,0 +1,205 @@
+### 프런트엔드
+
+#### 1. HTML Table
+1. `<table>` 태그 내에서 셀을 병합하려면 어떤 속성을 사용해야 합니까? => a, b
+   - a) `rowspan`
+   - b) `colspan`
+   - c) `merge`
+   - d) `extend`
+
+#### 2. HTML Form
+2. `<input>` 태그의 `type` 속성이 `submit`인 요소의 기능은 무엇입니까? => b
+   - a) 폼 데이터를 초기화합니다.
+   - b) 폼 데이터를 서버로 전송합니다.
+   - c) 사용자 입력을 금지합니다.
+   - d) 선택된 항목을 확인합니다.
+
+#### 3. Link/Iframe
+3. 웹 페이지 내에 다른 웹 페이지를 내장하기 위해 사용하는 HTML 태그는 무엇입니까? => b
+   - a) `<embed>`
+   - b) `<iframe>`
+   - c) `<link>`
+   - d) `<object>`
+
+#### 4. CSS 시작
+4. CSS에서 ID 선택자를 표시하는 기호는 무엇입니까? => b
+   - a) `.`
+   - b) `#`
+   - c) `*`
+   - d) `@`
+   
+   $("h1").css("text
+   
+#### 데이터베이스
+
+##### 조건
+5. SQL 문에서 여러 조건을 결합하기 위해 사용하는 키워드는 무엇입니까? => a
+   - a) `AND`
+   - b) `COMBINE`
+   - c) `BOTH`
+   - d) `ALL`
+
+##### 형변환함수
+6. SQL에서 문자열을 정수로 변환하는 함수는 무엇입니까? => a
+   - a) `TO_NUMBER`
+   - b) `CAST`
+   - c) `CONVERT`
+   - d) `PARSE_INT`
+
+##### 그룹함수
+8. SQL에서 여러 행의 합계를 계산하는 함수는 무엇입니까? => a
+   - a) `SUM`
+   - b) `TOTAL`
+   - c) `COUNT`
+   - d) `ADD`
+
+#### 2. DAO를 통한 데이터 처리
+* 7. 데이터 접근 객체(DAO) 패턴이 제공하는 주된 이점은 무엇입니까? => b
+   - a) 데이터 베이스 연결 속도 향상
+   - b) 데이터베이스와 비즈니스 로직의 분리
+   - c) SQL 문법 검사
+   - d) 자동 데이터베이스 스키마 생성
+
+#### 3. 요청 값 처리를 통한 화면 처리 방법
+8. 웹 애플리케이션에서 사용자의 요청을 처리하고 응답을 반환하는 객체는 무엇입니까? => c
+   - a) DAO
+   - b) Service
+   - c) Controller
+   - d) Repository
+
+### 추가 프론트엔드 문제
+9. CSS에서 어떤 속성을 사용하면 텍스트의 색상을 변경할 수 있습니까? => b
+    - a) `text-color`
+    - b) `color`
+    - c) `font-color`
+    - d) `text-style`
+
+10. HTML에서 이미지 파일을 웹 페이지에 삽입하는 태그는 무엇입니까? => a
+    - a) `<img>`
+    - b) `<picture>`
+    - c) `<graphics>`
+    - d) `<image>`
+
+11. 웹 페이지의 스타일을 지정할 때, 외부 CSS 파일을 HTML 문서에 포함시키기 
+	위해 사용하는 HTML 태그는 무엇입니까? => c
+    - a) `<style>`
+    - b) `<stylesheet>`
+    - c) `<link>`
+    - d) `<css>`
+
+12. 어떤 HTML 태그를 사용하면 웹 페이지에서 사용자에게 정보를 입력받을 수 있습니까? => a
+    - a) `<input>`
+    - b) `<form>`
+    - c) `<textfield>`
+    - d) `<enter>`
+
+### 추가 백엔드 문제
+
+13. SQL에서 어떤 키워드를 사용하면 중복된 결과를 제거할 수 있습니까? => b
+    - a) `UNIQUE`
+    - b) `DISTINCT`
+    - c) `SINGLE`
+    - d) `DIFFERENT`
+
+#### 프론트엔드
+
+14. HTML에서 `<table>` 태그의 주요 용도는 무엇입니까? => b
+   - A. 이미지 갤러리를 만들기 위해
+   - B. 데이터를 행과 열로 구성된 형태로 표시하기 위해
+   - C. 웹 페이지의 주 메뉴를 구성하기 위해
+   - D. 음악 파일을 재생하기 위해
+
+15. `<form>` 태그에 사용되지 않는 속성은 무엇입니까? => c
+   - A. action
+   - B. method
+   - C. enctype
+   - D. alt
+
+16. 웹 페이지에서 다른 페이지로의 링크를 만들기 위한 태그는 무엇입니까? => b
+   - A. `<link>`
+   - B. `<a>`
+   - C. `<div>`
+   - D. `<span>`
+
+17. iframe을 사용하는 주된 이유는 무엇입니까? => b
+   - A. 동영상을 재생하기 위해
+   - B. 페이지 내에 다른 HTML 문서를 포함하기 위해
+   - C. 폼 데이터를 전송하기 위해
+   - D. 웹 페이지의 헤더를 만들기 위해
+
+18. CSS에서 "class" 선택자의 식별자는 무엇입니까? => b
+   - A. #
+   - B. .
+   - C. @
+   - D. $
+
+#### 백엔드
+
+19. Oracle 데이터베이스에서 ‘조건’을 지정하는데 사용되는 SQL 구문은 무엇입니까? => a
+   - A. WHERE
+   - B. WHEN
+   - C. WHICH
+   - D. WHY
+
+20. Oracle에서 날짜 데이터 형식을 문자열로 변환하는 함수는 무엇입니까? => b
+   - A. TO_DATE
+   - B. TO_CHAR
+   - C. TO_NUMBER
+   - D. TO_STRING
+
+21. 다음 중 그룹 함수가 아닌 것은 무엇입니까? => c
+   - A. MAX
+   - B. MIN
+   - C. CONCAT
+   - D. AVG
+
+22. DAO 패턴에서 데이터 처리를 위해 주로 사용되는 프로그래밍 언어는 무엇입니까? => c
+   - A. HTML
+   - B. CSS
+   - C. Java
+   - D. JavaScript
+
+#### 프론트엔드 및 백엔드 통합
+
+24. 웹 페이지에서 사용자 입력을 받는데 사용되는 HTML 요소는 무엇입니까? => a
+    - A. `<input>`
+    - B. `<selector>`
+    - C. `<container>`
+    - D. `<text>`
+
+25. 클라이언트 측 스크립트를 작성하기 위해 주로 사용되는 언어는 무엇입니까? => c
+    - A. PHP
+    - B. Python
+    - C. JavaScript
+    - D. Java
+
+26. Oracle 데이터베이스에서 여러 레코드의
+	평균값을 계산하기 위한 SQL 함수는 무엇입니까? => b
+    - A. SUM
+    - B. AVG
+    - C. COUNT
+    - D. TOTAL
+
+27. SQL에서 결과 집합을 정렬하는 키워드는 무엇입니까? => b
+    - A. SORT BY
+    - B. ORDER BY
+    - C. ALIGN BY
+    - D. ARRANGE BY
+
+28. JavaScript를 사용하여 HTML 요소의 내용을 동적으로 변경하는 속성은 무엇입니까? => a
+    - A. .innerHTML
+    - B. .cssText
+    - C. .elementValue
+    - D. .textContent
+
+29. 데이터베이스 트랜잭션에서 변경 사항을 확정하는 명령어는 무엇입니까? => c
+    - A. SAVEPOINT
+    - B. COMMIT
+    - C. UPDATE
+    - D. ROLLBACK
+
+30. MVC 아키텍처에서 "Model"이 담당하는 역할은 무엇입니까? => c
+    - A. 사용자 인터페이스를 처리
+    - B. 데이터와 비즈니스 로직을 처리
+    - C. 데이터베이스 관리
+    - D. 요청을 처리하고 응답을 전송
