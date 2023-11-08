@@ -16,3 +16,40 @@
  * 		avg() : null을 제외한 모든 행의 평균값
  * 		stddev(표준편차), variance(분산) 
  * */
+
+-- 함수명(컬럼명) : null을 제외한 전체 데이터
+SELECT count(empno) "사원번호 갯수"
+FROM emp;
+SELECT count(*) "전체 컬럼 데이터건수"
+FROM emp;
+
+SELECT max(sal)
+FROM emp;
+SELECT min(sal)
+FROM emp;
+
+SELECT count(*) "건수", max(sal) 급여최대, min(sal) 급여최소,
+	avg(sal) "평균급여"
+FROM emp;
+
+SELECT * FROM EMPLOYEES;
+SELECT min(employee_id), max(employee_id), avg(salary)
+FROM EMPLOYEES;
+
+SELECT employee_id, job_id, salary
+FROM EMPLOYEES
+ORDER BY job_id, SALARY
+
+SELECT * FROM EMPLOYEES;
+SELECT count(job_id), max(salary), min(salary), sum(salary), avg(salary)
+FROM EMPLOYEES;
+
+-- having : group by 해서 통계치를 낸 결과값을 기준으로 검색조건을 만들때 사용
+SELECT job, avg(sal) 평균급여
+FROM emp
+GROUP BY job;
+
+SELECT department_id, avg(salary)
+FROM employees
+GROUP BY department_id
+HAVING avg(salary) >= 5000;
