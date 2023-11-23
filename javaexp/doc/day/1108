@@ -1,0 +1,14 @@
+# 주요 핵심 키워드와 개념
+- DAO (Database Access Object) 패턴 : 데이터베이스 코드의 중앙 집중화,
+	캡슐화 및 데이터 접근 추상화를 제공하는 디자인 패턴
+- DTO (Data Transger Object) : 데이터를 전송하는 객체, DAO에서 사용하여 데이터베이스의
+	데이터를 캡슐화한다. VO(Value Object)
+- JDBC (Java Database Connectivity) : 자바 애플리케이션과 데이터베이스 사이의
+	통신을 가능하게 하는 API
+- CRUD : Create, Read, Update, Delete : 데이터를 관리하기 위한 기본적인 네가지 함수
+
+# 생각하고 토론해볼 내용
+- DAO 패턴을 사용하지 않고 데이터베이스 작업을 진행했을 때의 잠재적 문제는 무엇인가요?
+- DAO와 DTO의 차이점과 각각의 역할에 대해 설명해보세요.
+- DAO 패턴이 객체 지향 프로그래밍 원칙과 어떻게 부합하나요?
+

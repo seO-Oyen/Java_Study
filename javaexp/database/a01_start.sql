@@ -50,4 +50,3 @@ FROM EMP;
 SELECT EMPNO 사원번호, ENAME 사원명, JOB 직책,
 	MGR "관리자 번호", HIREDATE "입사일", SAL "급 여!", DEPTNO 부서번호
 FROM EMP;
-

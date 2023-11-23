@@ -1,0 +1,13 @@
+# PreparedStatement 처리
+1. PreparedStatement는 java에서 sql 쿼리를 실행하는데 사용되는 인터페이스 입니다.
+	java.sql 패키지에 정의되어 있으며, Statement 인터페이스를 상속받습니다.
+	PreparedStatement는 SQL쿼리에 파라미터를 동적으로 삽입하는 기능을 제공하며,
+	데이터베이스와의 상호작용을 보다 효율적이고 안정하게 만들어줍니다.
+2. 사용이유 및 장점
+	1) SQL Injection방지 : PreparedStatement는 사용자 입력을 통해 SQL쿼리를 동적으로
+		생성할때, SQL Injection공격을 방지합니다. 사용자 입력이 쿼리의 일부로 직접
+		삽입되지 않고, 파라키터로 처리되기에 공격자가 악의적인 Sql코드를
+		주입하는것을 방지
+	2) 성능향상 : 데이터베이스는 PreparedStatement를 사용할 때 쿼리를 미리 컴파일 하고
+		캐시에 저장합니다
+	
