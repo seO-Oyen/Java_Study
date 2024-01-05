@@ -1,0 +1,31 @@
+# 학습 목표
+- JSP의 기본 개념과 동작 원리를 이해합니다.
+- JSP와 HTML, 자바 코드를 함께 사용하는 방법을 배웁니다.
+- JSP에서의 데이터 처리 및 표시 방법을 학습합니다.
+- JSP와 서블릿의 관계를 이해합니다.
+
+# 주요 핵심 키워드와 개념
+- JSP (Java Server Pages)
+- 스크립트릿 (Scriptlet)
+- 표현 언어 (Expression Language)
+- JSP 디렉티브 (Directives)
+- JSP 액션 태그 (Action tags)
+- MVC 패턴
+
+# 생각하고 토론해볼 내용
+- JSP는 어떻게 자바 코드를 HTML에 통합할 수 있게 해줍니까?
+- JSP와 서블릿 사이의 주요 차이점과 각각의 사용하는 태그는 무엇인가요?
+- JSP에서 MVC 패턴을 구현하는 것의 이점은 무엇일까요?
+
+# 간단한 퀴즈 
+1. JSP 페이지에서 자바 코드를 작성하기 위해 사용하는 태그는 무엇인가요?
+	- a) `<% %>`
+	- b) `<jsp:java>`
+	- c) `<java>`
+	- d) `<script>`
+2. JSP의 표현 언어(Expression Language)를 사용하여 변수 `username`의 값을 출력하는
+	올바른 방법은 무엇인가요?
+	- a) `<% out.println(username); %>`
+	- b) `<%= username %>`
+	- c) `${ username }`
+	- d) `{{ username }}`

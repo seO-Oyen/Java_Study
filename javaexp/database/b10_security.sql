@@ -26,5 +26,11 @@
 	grant 권한명 to 계정명;
 	create session - 접속권한
 	ex) grant create session to user01;
+	ex) grant resource to user02;
 
 */
+
+SELECT * FROM dba_users;
+CREATE USER user04 IDENTIFIED BY 1111;
+GRANT CREATE SESSION TO user04;
+GRANT resource TO user04;
